@@ -1,0 +1,24 @@
+spring:
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/solarhub
+    username: postgres
+    password: root
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+    show-sql: true
+
+    properties:
+      hibernate:
+        format_sql: false
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui
+    tags-sorter: alpha
+    operations-sorter: method
+  api-docs:
+    path: /api-docs

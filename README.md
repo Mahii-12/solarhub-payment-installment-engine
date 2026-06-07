@@ -24,8 +24,8 @@ A smart backend system for managing **solar financing installment payments**, bu
 
 | Layer         | Technology                       |
 | ------------- | -------------------------------- |
-| Backend       | Java 17 + Spring Boot 3          |
-| Database      | PostgreSQL (or H2 for local dev) |
+| Backend       | Java 21 + Spring Boot 3          |
+| Database      | PostgreSQL |
 | ORM           | Spring Data JPA (Hibernate)      |
 | API           | REST APIs                        |
 | Documentation | SpringDoc OpenAPI (Swagger UI)   |
